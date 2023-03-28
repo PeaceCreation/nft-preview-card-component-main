@@ -1,0 +1,146 @@
+/*  Start Global Rules */
+*{
+     padding:0;
+     margin:0;
+     box-sizing: border-box;
+}
+.container{
+     padding-right:15px;
+     padding-left:15px;
+     margin-right:auto;
+     margin-left:auto;
+}
+body{
+     font-family: 'Lexend Deca', sans-serif;
+     background-color: hsl(217, 54%, 11%);
+
+}
+/*  End Global Rules */
+
+/*  Start Header  */
+header{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     background-color:#14273F;
+     border-radius: 20px;
+}
+.box{
+     width:320px;
+     border-radius: 10px;
+}
+.box .equi{
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 0px;
+ 
+}
+.box .equi img{
+     max-width:270px;
+     width:100%;
+     border-radius: 10px;
+}
+.box .contents{
+     padding-top: 10px;
+     padding-bottom: 10px;
+     margin-left: 9%;
+}
+.box .contents h3{
+     padding-top:14px;
+     padding-bottom:14px;
+     text-transform: capitalize;
+     color:#EEEEF8;
+}
+.box .contents p{
+     color: hsl(215deg 51% 70% / 61%);
+     line-height: 1.6;
+     font-size: 15px;
+}
+.box .contents .info {
+     padding-top: 30px;
+     padding-bottom: 30px;
+     display: flex;
+     align-items: center;
+     gap:70px;
+}
+.box .contents .info .text{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+}
+.box .contents .info .text img{
+     width:15px;
+}
+.box .contents .info .text p{
+     text-transform: uppercase;
+}
+.box .contents .info span{
+     display: flex;
+     align-items: center;
+     gap: 6px;
+}
+.box .contents  .info img{
+     width:20px;
+}
+.box .contents .info span img{
+     width:20px;
+}
+.box .contents .footer{
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     padding-bottom:20px;
+ }
+ .box .contents .footer::before{
+     content: "";
+     position: absolute;
+     bottom: 64px;
+     left: 30px;
+     width: 84%;
+     height: 1px;
+     background-color: #1E3351;
+ 
+ }
+.box .contents .footer img{
+     width:20px;
+}
+.box .contents .footer p{
+     color:#fff;
+}
+.box .contents .footer p span{
+     color: hsl(215deg 51% 70% / 61%);
+     padding-right:15px;
+}
+/*  End Header  */ 
+
+/* Start Footer  */
+footer{
+     position: absolute;
+     bottom: 0;
+     left:0;
+     width:100%;
+     background-color: #fff;
+     text-align: center;
+     padding:20px;
+}
+/* End Footer  */
+/*  Start Queries */
+
+@media(min-width:768px){
+     .container{
+          max-width:720px;
+     }
+}
+@media(min-width:992px){
+     .container{
+          max-width: 960px;
+     }
+}
+
+@media(min-width:1440px){
+     .container{
+          max-width:1400px;
+     }
+}
+/*  End Queries */
